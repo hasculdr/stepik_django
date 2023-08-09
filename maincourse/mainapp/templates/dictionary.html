@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My dictionary</title>
+</head>
+<body>
+<h1>Словарь</h1>
+    <table><tbody>
+        {%for elem in words%}
+            <tr>
+                {%for var = elem.split('-')%}
+                <td>{{var[0]}}</td>
+                <td>{{var[1]}}</td>
+            </tr>
+        {%endfor%}
+        </tbody></table>
+</body>
+</html>

@@ -133,12 +133,12 @@ LOGGING = {
         'debug_file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '<path_to_file>/debug.log'
+            'filename': 'debug.log'
         },
         'error_file': {
             'level': 'ERROR',
             'class': 'logging.FileHandler',
-            'filename': '<path_to_file>/error.log'
+            'filename': 'error.log'
         }
     },
     'loggers': {
