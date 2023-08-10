@@ -8,11 +8,11 @@
 <h1>Словарь</h1>
   <form method="post" action="">
     <label for="word">Слово:</label>
-    <input type="text" id="word" name="word" required>
+    <input type="text" id="word" name="word1" required>
     <label for="translate">Перевод:</label>
-    <input type="text" id="translate" name="translate" required>
+    <input type="text" id="translate" name="word2" required>
     {% csrf_token %}
-    <button type="submit">Upload</button>
+    <button type="submit">Submit</button>
   </form>
 </body>
 </html>

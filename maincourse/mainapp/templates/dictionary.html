@@ -6,12 +6,11 @@
 </head>
 <body>
 <h1>Словарь</h1>
-    <table><tbody>
-        {%for elem in words%}
+    <table class="words_list"><tbody>
+        {%for w, t in items%}
             <tr>
-                {%for var = elem.split('-')%}
-                <td>{{var[0]}}</td>
-                <td>{{var[1]}}</td>
+                <td>{{w}}</td>
+                <td>{{t}}</td>
             </tr>
         {%endfor%}
         </tbody></table>

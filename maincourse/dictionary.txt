@@ -1,3 +1,7 @@
 butt-задница
 tree-дерево
 car-машина
+HAND-РУКА
+finger-палец
+ocean-russia
+pen-ground
