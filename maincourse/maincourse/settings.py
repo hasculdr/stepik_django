@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mainapp',
+    'task8app',
 ]
 
 MIDDLEWARE = [
@@ -100,7 +101,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+AUTH_PASSWORD_MODEL = [
+    'task8app.CustomUser',
+]
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
